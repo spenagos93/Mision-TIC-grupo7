@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Pagina web ejemplo</title>
+ <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<table border="1">
+    <tr style="height: 150px;">
+        <th style="width: 900px;">Encabezado
+        </th>
+    </tr>
+    <tr style="height: 80px;">
+        <th style="width: 900px;">Menú de navegación
+        </th>
+    </tr>
+    <tr style="height: 600px;">
+        <th style="width: 900px;">
+            <table border="1">
+                <tr style="height: 285px;">
+                    <td rowspan="2" style="width: 435px;">
+                        <form action="#" method="GET">
+                            <fieldset>
+                                <legend>Consulta</legend>
+                                <fieldset>
+                                <p>Nombre: <input type="text" name="nombre" size="25"></p>
+                                <p>Apellido: <input type="text" name="nombre" size="25"></p>
+                                <p>Sexo: 
+                                <input type="radio" name="genero" value="h">Hombre
+                                <input type="radio" name="genero" value="m">Mujer
+                                <input type="radio" name="genero" value="na">Prefiero no decirlo
+                                </p>
+                                <label for="ocupación">Ocupación</label>
+                                <div></div>
+                                <select name="seleccionar-ocupación" id="ocupación">
+                                <option value="ninguna">--seleccione una opción--</option>
+                                <option value="Electricista">Ingeniero Electricista</option>
+                                <option value="Electronico">Ingeniero Electronico</option>
+                                <option value="Microbiologo">Microbiologo</option>
+                                <option value="Civil">Ingeniero civil</option>
+                                <option value="Sistemas">Ingeniero de Sistemas</option>
+                                <option value="Mecanico">Mecanico automotriz</option>
+                                <option value="Medico">Medico general</option>
+                                <option value="Vendedor">Agente de ventas</option>
+                                <option value="Ama">Ama de casa</option>
+                                <option value="independiente">Trabajador independiente</option>
+                                </select>
+                                
+                                </fieldset>
+                                <div>
+                                <p></p>
+                                </div>
+                                <fieldset>
+                                <p>Seleccionar intereses:</p>
+                                <p><input type="checkbox" name="nadar" id="nadar">Nadar</p>
+                                <p><input type="checkbox" name="nadar" id="nadar">Ir a cine</p>
+                                <p><input type="checkbox" name="nadar" id="nadar">Comer</p>
+                                <p>Correo: <input type="mail" name="correo" size="25" required></p>
+                                </fieldset>
+                            <div>
+                            <p>
+                            <input class="boton" type="submit" value="Guardar">
+                            <input class="boton" type="reset" value="Borrar">
+                            </p>
+                            </div>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>Cuadro 2
+                    </td>
+                </tr>
+                <tr style="height: 285px;">
+                    <td style="width: 435px;">Cuadro 3 
+                    </td>
+                </tr style="height: 570px;">
+            </table>
+        </th>
+    </tr>
+    <tr style="height: 100px;">
+        <th style="width: 900px;">Pie de pagina
+        </th>
+    </tr>
+    
+</table>
+</body>
+</html>
